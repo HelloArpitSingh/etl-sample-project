@@ -1,0 +1,8 @@
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the FastAPI server
+uvicorn app:app --reload
+
+# Or with specific host/port
+uvicorn app:app --host 127.0.0.1 --port 8000 --reload
